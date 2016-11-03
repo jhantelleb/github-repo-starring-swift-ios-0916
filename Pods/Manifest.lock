@@ -1,8 +1,9 @@
 PODS:
+  - Alamofire (4.0.1)
   - KIF (3.5.1):
     - KIF/Core (= 3.5.1)
   - KIF/Core (3.5.1)
-  - Nimble (5.1.0)
+  - Nimble (5.1.1)
   - OHHTTPStubs (5.2.2):
     - OHHTTPStubs/Default (= 5.2.2)
   - OHHTTPStubs/Core (5.2.2)
@@ -19,17 +20,19 @@ PODS:
   - Quick (0.10.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
   - KIF (~> 3.0)
   - Nimble
   - OHHTTPStubs
   - Quick
 
 SPEC CHECKSUMS:
-  KIF: '082eb65279e51c3092923802849eb796a04982ab'
-  Nimble: 5ea121a2eda60440287054cde077fc0ad22227b3
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   OHHTTPStubs: 34d9d0994e64fcf8552dbfade5ce82ada913ee31
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
-PODFILE CHECKSUM: d2f5a541f1eca97966dff7d38e0a450c814e4f30
+PODFILE CHECKSUM: 0d7f6335c7fcd6a01a3100272b5bfffdd9f847d5
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1

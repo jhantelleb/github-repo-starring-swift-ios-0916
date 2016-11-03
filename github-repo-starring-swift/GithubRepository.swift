@@ -12,6 +12,7 @@ class GithubRepository {
     var fullName: String
     var htmlURL: URL
     var repositoryID: String
+    var isStarred: Bool = false
     
     init(dictionary: [String : Any]) {
         guard let

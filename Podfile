@@ -2,15 +2,14 @@
 # platform :ios, '9.0'
 
 target 'github-repo-starring-swift' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   pod 'OHHTTPStubs'
-
-  # Pods for github-repo-starring-swift
+  pod 'Alamofire', '~> 4.0'
+  # Pods for github-repo-starring-list-swift
 
   target 'github-repo-starring-swiftTests' do
     inherit! :search_paths
+    # Pods for testing
     pod 'OHHTTPStubs'
     pod 'Quick'
     pod 'Nimble'
@@ -20,6 +19,7 @@ target 'github-repo-starring-swift' do
   target 'github-repo-starring-swiftUITests' do
     inherit! :search_paths
     # Pods for testing
+
   end
 
 end
@@ -29,5 +29,6 @@ post_install do |installer|
         target.build_configurations.each do |config|
             config.build_settings['SWIFT_VERSION'] = '3.0'
         end
-    end
+
+   end
 end
